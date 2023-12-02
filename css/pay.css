@@ -1,0 +1,178 @@
+body {
+    background: #f5f5f5;
+}
+
+.rounded {
+    border-radius: 1rem;
+}
+
+.nav-pills .nav-link {
+    color: #555
+}
+
+.nav-pills .nav-link.active {
+    color: white
+}
+
+input[type="radio"] {
+    margin-right: 5px
+}
+
+.bold {
+    font-weight: bold
+}
+
+.card2 {
+    width: 80% !important;
+}
+
+
+/************** new css for payment webpage
+
+/* Apply a background color and padding to the custom section */
+
+.custom-section {
+    background-color: #f8f9fa;
+    /* Choose your desired background color */
+    padding: 80px 0;
+}
+
+
+/* Center the heading and style it */
+
+.custom-section h2 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 3;
+    text-align: center;
+}
+
+
+/* Style the card and adjust its width */
+
+.card {
+    background-color: #fff;
+    /* Choose your desired card background color */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+
+/* Style the tabs */
+
+.nav-pills .nav-link {
+    border-radius: 0;
+    color: #333;
+    /* Choose your desired tab link color */
+}
+
+.nav-pills .nav-link.active {
+    background-color: #ff4d00;
+    /* Choose your desired active tab background color */
+    color: #36f66c;
+    /* Choose your desired active tab text color */
+}
+
+
+/* Style the input fields and buttons */
+
+.form-control {
+    border-radius: 10px;
+}
+
+.card-footer .subscribe {
+    background-color: #09d202;
+    /* Choose your desired button background color */
+    color: #fff;
+    /* Choose your desired button text color */
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+/* Center the payment button */
+
+.card-footer {
+    text-align: center;
+}
+
+
+/* Adjust the spacing for the radio buttons */
+
+.radio-inline {
+    margin-right: 20px;
+}
+
+
+/* Style the PayPal button */
+
+.btn-paypal {
+    background-color: #007bff;
+    /* Choose your desired PayPal button background color */
+    color: #fff;
+    /* Choose your desired PayPal button text color */
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+/* Style the bank selection dropdown */
+
+.form-group select {
+    border-radius: 10px;
+}
+
+
+/* Style the "Proceed Payment" button */
+
+.btn-proceed-payment {
+    background-color: #007bff;
+    /* Choose your desired button background color */
+    color: #fff;
+    /* Choose your desired button text color */
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+/* Add full-width styles to the container */
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+/* Add full-width styles to the row */
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/* Center-align text within the card */
+
+.text-center {
+    text-align: center;
+}
+
+
+/* Remove default list styles for the card tabs */
+
+.card-header ul.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card-header ul.nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.card-header {
+    width: 1500px !important;
+}

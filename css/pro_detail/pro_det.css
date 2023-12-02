@@ -1,0 +1,32 @@
+/* Define the style for the bullet list */
+.bullet-list {
+    list-style-type: disc; /* Use disc style for bullet points */
+    margin-left: 20px;    /* Add some margin to the left for indentation */
+}
+
+/* Style the list items */
+.bullet-list li {
+    margin: 5px 5px;        /* Add some spacing between list items */
+}
+/* Add a CSS class to hide initially hidden products */
+.hidden-product {
+    display: none;
+}
+/* Custom CSS for the "Load More Products" button */
+#loadMoreBtn {
+    background-color: #343a40; /* Change the background color to your desired dark color */
+    color: #ffffff; /* Change the text color to white or your desired color */
+    border: none;
+    border-radius: 5px; /* Add rounded corners if desired */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer;
+}
+
+/* Hover effect for the button (optional) */
+#loadMoreBtn:hover {
+    background-color: #555b62; /* Change the background color on hover */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+

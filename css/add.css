@@ -1,0 +1,164 @@
+    /* Style the h3 (title) element */
+    /* Hover effect for product cards */
+    /* styles.css */
+
+    a {
+        text-decoration: none !important; /* Remove the underline */
+        color: #000; /* Set the default text color */
+      }
+      
+      a:hover {
+        color: #0060e5; /* Change text color on hover to red (#FF0000) */
+      }
+    
+.custom-header {
+    height: 200px; /* Adjust the height as per your preference */
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+
+
+.card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.233); /* Add a box-shadow on hover */
+    transform: scale(1.05); /* Scale up the card on hover */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add smooth transitions */
+    }
+
+    /* Style for the section heading */
+    h2.text-center {
+        font-family: 'Noto Sans Thai', sans-serif;
+
+        text-align: left;
+        font-size: 24px;
+        color: #333; /* Change the text color as needed */
+    }
+
+
+
+    .container.px-4.px-lg-5.my-5 {
+        width: 100%;
+        padding: 0;}
+    .carousel-caption h3 {
+        font-size: 34px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    /* Style the text description */
+    .carousel-caption p {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    /* Style the "Read More" button */
+    .carousel-caption .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+        font-size: 16px;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    /* Hover effect for the "Read More" button */
+    .carousel-caption .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+    /* Style the width of the images */
+    .carousel-item img {
+        max-width: 100%; /* Adjust this value as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+
+    /* Style the navbar when hidden */
+    #scrollingNavbar {
+        transition: top 0.3s ease-in-out;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+    }
+
+
+
+
+
+
+           /* Custom CSS for the provided HTML */
+           .py-5.bg-light {
+            background-color: #f8f9fa; /* Light gray background color */
+        }
+
+        .display-5 {
+            color: #343a40; /* Dark text color for headings */
+        }
+
+        .fs-5 {
+            color: #007bff; /* Blue color for price */
+        }
+
+        .lead {
+            color: #6c757d; /* Gray color for text content */
+        }
+
+        /* Style the button */
+        .btn-outline-dark {
+            background-color: transparent;
+            border-color: #343a40;
+            color: #343a40;
+        }
+
+        .btn-outline-dark:hover {
+            background-color: #343a40;
+            color: #fff;
+        }
+
+        /* Style the image */
+        .card-img-top {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px; /* Add rounded corners to the image */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the image */
+        }
+
+
+
+   
+        
+
+        .card-body {
+            padding: 15px;
+        }
+    
+        .card-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    
+        .card-text {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+    
+        .readmore555 {
+            align-items: center;
+            background-color: #007bff;
+            color: #ffffff;
+            text-align: center;
+            border: none;
+            align-self: center;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+    
+        .readmore555:hover{
+            background-color: rgb(0, 255, 115);
+        }       
